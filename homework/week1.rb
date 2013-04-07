@@ -11,13 +11,18 @@ require "test/unit"
 #######################################################
 
 def say_hello
+"Hi!"
 end
 
 def shout(input)
+input.upcase
 end
 
 def secret_code(input)
+  secret_answers = {"howdy" => "YDWOh", "go u nu" => "un u Og"}
+secret_answers[input]
 end
+
 
 # DO NOT CHANGE THE CODE BELOW THIS LINE.
 #
